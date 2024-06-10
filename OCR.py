@@ -3,7 +3,7 @@ from PIL import Image
 import pytesseract
 from pptx import Presentation
 import tempfile
-import fitz  # PyMuPDF
+import fitz  
 
 def ocr_image(img):
     return pytesseract.image_to_string(img)
